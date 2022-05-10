@@ -1,0 +1,81 @@
+body{
+    background-color: #e3f2fd8c;
+}
+
+.button-card{
+    margin-top: 100px;
+    text-align-last: center;
+}
+
+.button{
+    border: 1px solid black;
+    border-radius: 10px 0px 10px 0px;
+    background-color: greenyellow;
+    font-size: 25px;
+    color: blue;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: 1px solid black;
+    border-radius: 10px 0px 10px 0px;
+    background-color: blue;
+    font-size: 25px;
+    color: greenyellow;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+#white{
+    font-size: 100px;
+    font-weight: 900px;
+    text-align: center;
+    color: purple;
+}
+
+.modal1{
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple!important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.modal2{
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple!important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.btt_fechar{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+}
+
+#name{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name_teste{
+    display: none;
+}
