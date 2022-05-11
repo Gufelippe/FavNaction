@@ -1,5 +1,10 @@
 body{
     background-color: #e3f2fd8c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-top: 20px;
 }
 
 .button-card{
@@ -25,6 +30,22 @@ body{
     color: greenyellow;
     transition-duration: 1s;
     cursor: pointer;
+}
+
+.button_navbar{
+    background-color: rgba(255, 255, 255, 0);
+    color: white!important;
+    font-weight: 700;
+    border: none;
+    padding-right: 5px;
+}
+
+.button_navbar:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: green!important;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.338)!important;
+    border: none;
+    padding-right: 5px;
 }
 
 #white{
@@ -78,4 +99,34 @@ body{
 
 .name_teste{
     display: none;
+}
+
+#pag_home{
+    display: block;
+}
+
+#pag_1{
+    display: none;
+}
+
+#pag_2{
+    display: none;
+}
+
+#pag_3{
+    display: none;
+}
+
+.card_middle{
+    display: flex;
+    justify-content: center;
+}
+
+.card_middle_title{
+    font-size: 50px;
+}
+
+.card_middle_text{
+    margin-top: 30px;
+    font-size: 18px;
 }
