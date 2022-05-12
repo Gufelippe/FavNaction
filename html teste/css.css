@@ -42,11 +42,25 @@ body{
 
 .button_navbar:hover{
     background-color: rgba(255, 255, 255, 0);
-    color: green!important;
+    color: black!important;
     text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.338)!important;
     border: none;
     padding-right: 5px;
 }
+
+.button_cont{
+    position: absolute;
+    box-shadow: 5px 0px 10px black;
+    animation: 2s;
+}
+
+.button_cont:hover{
+    position: absolute; 
+    transform: translate(0px, -5px);
+    box-shadow: 5px 0px 10px black;
+    animation: 2s;
+}
+
 
 #white{
     font-size: 100px;
@@ -130,3 +144,4 @@ body{
     margin-top: 30px;
     font-size: 18px;
 }
+
